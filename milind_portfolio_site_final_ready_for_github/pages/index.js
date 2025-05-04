@@ -11,7 +11,7 @@ export default function Home() {
         <title>Milind Cherukuri | Modeling Portfolio</title>
         <meta name="description" content="Modeling Portfolio of Milind Cherukuri" />
       </Head>
-      <main className="bg-white text-gray-900">
+      <main className="bg-gray-50 text-gray-900 font-sans">
         <Hero />
         <About />
         <Portfolio />
