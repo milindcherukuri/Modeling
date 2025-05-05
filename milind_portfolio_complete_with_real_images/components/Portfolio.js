@@ -20,7 +20,7 @@ export default function Portfolio() {
             <img
               src={`/images/${src}`}
               alt={`Portfolio ${index + 1}`}
-              className="object-contain w-full h-auto max-h-[500px] rounded-xl bg-white"
+              className="object-cover w-full max-h-[600px] rounded-xl"
             />
           </div>
         ))}
