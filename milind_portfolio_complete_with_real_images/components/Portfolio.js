@@ -15,12 +15,12 @@ export default function Portfolio() {
         {images.map((src, index) => (
           <div
             key={index}
-            className="overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition duration-300"
+            className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300 bg-gray-50"
           >
             <img
               src={`/images/${src}`}
               alt={`Portfolio ${index + 1}`}
-              className="object-cover w-full max-h-[600px] rounded-xl"
+              className="w-full h-auto block"
             />
           </div>
         ))}
